@@ -144,6 +144,10 @@
   }
 }
 
+html {
+    scrollbar-gutter: stable;
+}
+
 body {
   font-size: var(--font-size-body);
   -moz-osx-font-smoothing: grayscale;
@@ -756,3 +760,8 @@ article.feed-parsing-error {
     transition: none;
   }
 }
+
+.pagination-bottom {
+    display: none !important;
+}
+

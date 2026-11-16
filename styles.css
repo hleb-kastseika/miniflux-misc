@@ -678,10 +678,6 @@ article.feed-parsing-error {
   transition: color 0.2s ease;
 }
 
-.item-title a:hover {
-  color: #93d96d;
-}
-
 .item-title a:focus:not(:focus-visible) {
   outline: none;
 }
